@@ -36,7 +36,7 @@ mongoose.connect('mongodb+srv://abhishekkamati304:abhishek10855@cluster0.8y1oi0l
 
 app.use(cors({
   credentials: true,
-  origin: "https://react-mongo-shopy.vercel.app/",
+  origin: ["https://react-mongo-swart.vercel.app", "http://192.168.1.64:3000"],
 }));
 app.use(morgan('dev'));
 app.use(fileUpload({
