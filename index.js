@@ -36,7 +36,7 @@ mongoose.connect('mongodb+srv://abhishekkamati304:abhishek10855@cluster0.8y1oi0l
 
 app.use(cors({
   credentials: true,
-  origin: "",
+  origin: "http://localhost:3000/",
 }));
 app.use(morgan('dev'));
 app.use(fileUpload({
